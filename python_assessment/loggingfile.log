@@ -4,3 +4,9 @@
 2017-07-17 16:54:03,255 ERROR:some strings are entered in the input.PLEASE CHECK
 2017-07-17 16:54:04,421 INFO:started the process
 2017-07-17 16:54:07,305 INFO:process finished
+2017-07-17 16:56:31,839 INFO:started the process
+2017-07-17 16:56:38,145 ERROR:Entered sequence length 12 is too small
+2017-07-17 16:57:22,417 INFO:started the process
+2017-07-17 16:57:24,496 ERROR:some strings (for example 12a) are entered in the input.PLEASE CHECK
+2017-07-17 16:57:26,769 INFO:started the process
+2017-07-17 16:57:27,339 ERROR:Entered sequence 12 is too small

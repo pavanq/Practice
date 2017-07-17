@@ -8,7 +8,7 @@ for i in line:
     try:
         int(i)
     except ValueError:
-        logging.error('some strings are entered in the input.PLEASE CHECK')
+        logging.error('some strings (for example %s) are entered in the input.PLEASE CHECK',i)
         sys.exit(0)
 line="".join(line)
 class Solution(object):
@@ -16,7 +16,7 @@ class Solution(object):
     def is_additive_number(self, num):
         length = len(num)
         if length<3:
-            logging.error("Entered sequence length is too small")
+            logging.error("Entered sequence %s is too small",num)
             sys.exit(0)
         for i in range(1, int(length/2+1)):
             for j in range(1, int((length-i)/2 + 1)):
